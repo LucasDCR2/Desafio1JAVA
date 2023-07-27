@@ -1,18 +1,9 @@
-## Getting Started
+Desafio 1 – Lista de tarefas
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Faça um programa que possibilite ao usuário adicionar tarefas, remover, editar a descrição e a data de
+previsão de uma tarefa, alterar o status (se está concluída ou não) e exibir as tarefas por data de previsão.
+Ao adicionar uma tarefa, o usuário informa a descrição e a data de previsão. O programa valida o formato da
+data (DD/MM/AAAA). Se a data fornecida for inválida, o programa exibe uma mensagem de erro e solicita
+uma nova data.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+O usuário pode alterar o status, editar ou remover informando o índice da tarefa
